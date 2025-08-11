@@ -1,0 +1,199 @@
+   .parent {
+      background-color: black;
+      padding: 1%;
+      scroll-margin: 2%;
+      width: 100%;
+   }
+   #f {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 45px;
+      width: 18cm;
+      padding: 20px;
+      margin-bottom: 30px;
+      color: rgb(244, 243, 237);
+      text-shadow: 0 0 8px rgba(220, 20, 60, 0.9),
+                   0 0 16px rgba(220, 20, 60, 0.7),
+                   0 0 24px rgba(220, 20, 60, 0.5);
+      text-decoration: none; /* Ensure no underline by default */
+  }
+  
+  #f:hover {
+      text-decoration: underline; /* Add underline on hover */
+  }
+  
+   #r {
+      background-image: url('sky.webp');
+      background-size:cover;
+      text-align: center;
+      text-decoration: none;
+      font-size: 40px;
+      text-shadow: 0 0 8px rgba(246, 243, 244, 0.9),
+                   0 0 16px  rgba(246, 243, 244, 0.9),
+                   0 0 24px  rgba(246, 243, 244, 0.9);
+      width: 70%;
+      height: 40;
+      border-radius: 25px;
+      margin: 10px ;
+      padding: 60px;
+      box-shadow: 4px 4px 4px rgba(18, 14, 14, 0.942);
+      box-sizing: border-box;
+   }
+  #i {
+    width: 200px; /* Set a fixed width */
+    height: auto;  /* Maintain aspect ratio */
+    max-width: 100%; /* Make it responsive */
+    border: 3px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+    margin: 20px;
+}
+
+  
+   
+   
+   .container1, .container2, .container3 {
+      padding: 30px;
+      display: flex;
+      column-gap: 20px;
+      flex-wrap: wrap;
+      margin-left: 65px;
+     
+   }
+
+   
+   .hover {
+      display: none;
+   }
+   
+   .myinfo1, .myinfo2, .myinfo3, .myinfo4 {
+      text-align: center;
+      padding: 30px;
+      height: 260px;
+      width: 260px;
+      background-color: rgba(34, 183, 175, 0.803);
+      box-shadow: 1px 1px 1px rgba(239, 239, 239, 0.942);
+      border: 1px solid #ccc;
+      border-radius: 255px;
+      transition: all 0.3s ease;
+   }
+   
+   .myinfo5 {
+      text-align: center;
+      height: 60px;
+      width: 100%;
+      margin-right: 100px;
+      background-color: rgba(34, 183, 175, 0.803);
+   }
+ 
+.container1 {
+   padding:30px;
+   display: flex;
+   column-gap:600px;
+   flex-wrap: wrap; 
+}
+.container2 {
+   padding:30px;
+   display: flex;
+   column-gap:600px;
+   flex-wrap: wrap;
+}
+.container3 {
+    padding:30px;
+   display: flex;
+   column-gap:600px;
+   flex-wrap: wrap; 
+}
+.hover{
+   display: none;
+}
+.myinfo1, .myinfo2, .myinfo3, .myinfo4 {
+   text-align: center;
+   padding:30px; 
+   height: 260px; /* Default height */
+   width: 260px; /* Default width */
+   background-color: rgba(34, 183, 175, 0.803); /* Default background color */
+   box-shadow: 1px 1px 1px rgba(239, 239, 239, 0.942); /* Default shadow */
+   border: 1px solid #ccc; /* Default border */
+   border-radius: 5px; /* Default border radius */
+   transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+.myinfo5{
+   text-align:top;
+   padding:50px; 
+   height:60px; /* Default height */
+   width:100%; /* Default width */
+   background-color:  rgba(34, 183, 175, 0.803); /* Default background color */
+   box-shadow: 1px 1px 1px rgba(239, 239, 239, 0.942); /* Default shadow */
+   border: 1px solid #ccc; /* Default border */
+   border-radius: 5px; /* Default border radius */
+   transition: all 0.3s ease; /
+}
+
+/* Hover effects for each item */
+.myinfo1:hover {
+   padding: 40px;
+   height: 240px;
+   width: 240px;
+   background-color:gold;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   border: 1px solid #000;
+   border-radius: 10px;
+}
+.myinfo1:hover .hover{
+   display: block;
+}
+
+.myinfo2:hover {
+   padding: 40px;
+   height: 240px;
+   width: 240px;
+   background-color: gold;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   border: 1px solid #000;
+   border-radius: 10px;
+}
+.myinfo2:hover .hover{
+   display: block;
+}
+
+.myinfo3:hover {
+   padding: 40px;
+   height: 240px;
+   width: 240px;
+   background-color:gold;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   border: 1px solid #000;
+   border-radius: 10px;
+}
+.myinfo3:hover .hover{
+   display: block;
+}
+
+.myinfo4:hover {
+   padding: 40px;
+   height: 240px;
+   width: 240px;
+   background-color: hsl(55, 80%, 47%);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   border: 1px solid #000;
+   border-radius: 10px;
+}
+.myinfo4:hover .hover{
+   display: block;
+}
+
+.myinfo5:hover {
+   height: 170px;
+   width: 100%;
+   background-color:blueviolet;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+   border: 1px solid #000;
+   border-radius: 10px;
+}
+.myinfo5:hover .hover{
+   display: block;
+}
+
+/* .hover class does not seem necessary, you might want to remove or adjust it */
